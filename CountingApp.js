@@ -19,7 +19,6 @@ function app(counter){
         console.log(view(counter));
 
         const prompt = require('prompt-sync')();
-        //Wasn't sure if input was a reserved word in JS, so its called inp :)
         const msg = prompt("What would you do: ");
         if (msg === "q"){
             return 0;
